@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    margin: 0;
+}
+
+main {
+    margin-left: 182px;
+    display: flex;
+    z-index: 0;
+    position: relative;
+}
+
+.div-main {
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+}
+
+.verified-badge {
+    width: 16px;
+    height: 16px;
+    padding: 0 2.5px;
+}

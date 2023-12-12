@@ -1,0 +1,163 @@
+.more-img img,
+.comment-img img,
+.retweet-img img,
+.like-img img,
+.share-img img {
+    width: 17px;
+    height: 17px;
+}
+
+.tweets-box {
+    display: flex;
+    padding: 12px 16px 0 16px;
+    cursor: pointer;
+}
+
+.tweets-profile-picture {
+    display: flex;
+    margin-right: 12px;
+}
+
+.tweets {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.tweets-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tweets-header-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-name a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.user-username a,
+.dot,
+.tweets-time a {
+    color: rgb(83, 100, 113);
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.user-username {
+    padding-left: 2px;
+}
+
+.dot {
+    padding: 0 4px;
+}
+
+.tweets-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.tweets-content div {
+    padding-bottom: 9px;
+}
+
+.tweets-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.tweets-content div a {
+    color:rgb(31, 147, 220);
+    text-decoration: none;
+}
+
+.tweets-respond {
+    display: flex;
+}
+
+.tweets-respond-icons {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 65px;
+    margin-bottom: 6px;
+}
+
+.comment,
+.retweet,
+.like {
+    display: flex;
+    align-items: center;
+}
+
+.more-img,
+.comment-img,
+.retweet-img,
+.like-img,
+.share-img {
+    padding: 7px 8px;
+    border: none;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.comment p,
+.retweet p,
+.like p {
+    padding: 0 12px;
+    color: rgb(83, 100, 113);
+    font-size: 13px;
+}
+
+.tweets-box:hover {
+    background-color: rgb(245, 245, 245);
+}
+
+.user-name:hover,
+.tweets-time:hover,
+.tweets-content div a:hover {
+    text-decoration: underline;
+}
+
+.more-img:hover,
+.comment-img:hover,
+.share-img:hover {
+    background-color: rgb(213, 234, 247);
+}
+
+.comment p:hover {
+    color: rgb(72, 170, 230);
+}
+
+.retweet-img:hover {
+    background-color: rgb(213, 247, 228);
+}
+
+.retweet p:hover {
+    color: rgb(72, 230, 106);
+}
+
+.like-img:hover {
+    background-color: rgb(247, 213, 230);
+}
+
+.like p:hover {
+    color: rgb(230, 72, 183);
+}
+
+.tweets-box,
+.more-img,
+.comment-img,
+.share-img,
+.retweet-img,
+.like-img,
+.comment p,
+.retweet p,
+.like p {
+    transition: 0.25s;
+}
